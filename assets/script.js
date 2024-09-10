@@ -1,7 +1,7 @@
 const topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
 const randomTopic = topics[Math.floor(Math.random() * topics.length)];
 
-console.log('Here are the topics we learned through Prework');
+console.log('Here are the topics we learned through Prework:');
 function listTopics() {
 
     for(let x = 0; x < topics.length; x++) {
